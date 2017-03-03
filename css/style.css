@@ -7828,14 +7828,6 @@ a {
         float: right;
     }
 
-    .navbar li:nth-last-of-type(2) {
-        /*padding-left: 3em;*/
-    }
-
-    .navbar li:nth-last-of-type(1) {
-        border-left: 1px solid gray;
-        padding-left: 1em;
-    }
 
 .transparent-navbar {
     background-color: transparent;
@@ -7847,16 +7839,6 @@ a {
     .transparent-navbar a, .transparent-navbar .menu-btn {
         color: black;
     }
-
-    .transparent-navbar li:nth-last-of-type(1) {
-        border-left: 1px solid white;
-        padding-left: 1em;
-    }
-
-.navbar-nav .nav-item + .nav-item:not(:last-child) {
-    /*margin-left: 4em;*/
-    margin-left: 2.4em;
-}
 
 /** Begin the footer CSS **/
 footer {
@@ -7972,16 +7954,17 @@ footer a, footer p {
     margin: 0 auto;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 600px) {
     .icon-section .icon-box-arrows:nth-child(n+2):before {
-        content: url("../img/icon-arrow.png");
+        content: url("../images/icon-arrow.png");
         position: absolute;
         left: -60px;
+
     }
 }
 
 .icon-section .icon-box p {
-    max-width: 20rem;
+    max-width: 10rem;
     margin: 0 auto;
 }
 
