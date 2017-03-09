@@ -1197,7 +1197,7 @@ pre {
 
 .col-xs-1 {
     float: left;
-    width: 8.333333%;
+    /*width: 8.333333%;*/
 }
 
 .col-xs-2 {
@@ -1406,7 +1406,7 @@ pre {
 @media (min-width: 576px) {
     .col-sm-1 {
         float: left;
-        width: 8.333333%;
+        /*width: 8.333333%;*/
     }
 
     .col-sm-2 {
@@ -1620,7 +1620,7 @@ pre {
 @media (min-width: 768px) {
     .col-md-1 {
         float: left;
-        width: 8.333333%;
+        /*width: 8.333333%;*/
     }
 
     .col-md-2 {
@@ -1834,7 +1834,7 @@ pre {
 @media (min-width: 992px) {
     .col-lg-1 {
         float: left;
-        width: 8.333333%;
+        /*width: 8.333333%;*/
     }
 
     .col-lg-2 {
@@ -2048,7 +2048,7 @@ pre {
 @media (min-width: 1200px) {
     .col-xl-1 {
         float: left;
-        width: 8.333333%;
+        /*width: 8.333333%;*/
     }
 
     .col-xl-2 {
@@ -4266,7 +4266,7 @@ tbody.collapse.in {
 
 .navbar {
     position: relative;
-    padding: 0.5rem 1rem;
+    /*padding: 0.5rem 1rem;*/
 }
 
     .navbar::after {
@@ -7833,7 +7833,7 @@ a {
     background-color: transparent;
     border-bottom: none;
     box-shadow: none;
-    color:#FFF;
+    /*color:#FFF;*/
 }
 
     .transparent-navbar a, .transparent-navbar .menu-btn {
@@ -7891,12 +7891,12 @@ footer a, footer p {
 @media (max-width: 768px) {
     .full-screen-section {
         height: auto;
-        padding-top: 6em !important;
+        padding-top: 1em !important;
     }
 }
 
 .full-screen-section-content {
-    height: 100%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7909,7 +7909,7 @@ footer a, footer p {
 }
 
 .full-screen-section {
-    background: url("../images/bb.jpg");
+    background: url("../images/b.jpg");
     background-size: cover;
 }
 
@@ -8107,7 +8107,7 @@ footer a, footer p {
     }
 
 .section {
-    padding: 3em 0;
+    padding: 0.7em 0;
 }
 
 }
@@ -8140,7 +8140,7 @@ footer a, footer p {
 
 .hero-section {
     /* offset body padding and get the transparent effect */
-    margin-top: -4em;
+    margin-top: -8.3em;
 }
 
     .hero-section h1 {
